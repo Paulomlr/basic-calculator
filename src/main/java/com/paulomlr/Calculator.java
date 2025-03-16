@@ -24,4 +24,11 @@ public class Calculator {
     public double power(int base, int exponent) {
         return Math.pow(base, exponent);
     }
+
+    public double squareRoot(int number) {
+        if (number < 0) {
+            throw new IllegalArgumentException("Root of negative number is not allowed");
+        }
+        return Math.sqrt(number);
+    }
 }

@@ -7,5 +7,7 @@ public class Main {
         System.out.println("Subtract: " + calculator.subtract(5, 2));
         System.out.println("Multiply: " + calculator.subtract(4, 3));
         System.out.println("Divide: " + calculator.divide(6, 2));
+        System.out.println("Power: " + calculator.power(2,3));
+        System.out.println("Square Root: " + calculator.squareRoot(16));
     }
 }
