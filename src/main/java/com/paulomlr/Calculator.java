@@ -20,4 +20,8 @@ public class Calculator {
         }
         return (double) num1 / num2;
     }
+
+    public double power(int base, int exponent) {
+        return Math.pow(base, exponent);
+    }
 }
