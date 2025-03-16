@@ -36,4 +36,14 @@ class CalculatorTest {
     void testPower() {
         assertEquals(8, calculator.power(2, 3));
     }
+
+    @Test
+    void testSquareRoot() {
+        assertEquals(3.0, calculator.squareRoot(9));
+    }
+
+    @Test
+    void testSquareRootNegative() {
+        assertThrows(IllegalArgumentException.class, () -> calculator.squareRoot(-1));
+    }
 }
